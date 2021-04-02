@@ -1,0 +1,7 @@
+v 1.0
+d
+d 'scheme-clean': a Stata scheme
+d
+d Distribution-Date: 20200402
+d
+f scheme-clean.scheme
