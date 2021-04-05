@@ -91,7 +91,8 @@ gsize sts_risk_tick       	zero
 
 linestyle  legend			none
 linestyle  plotregion		none
-anglestyle vertical_tick	horizontal
+anglestyle vertical_tick  vertical
+*anglestyle vertical_tick	horizontal
 
 linewidth xyline       		medthin
 linewidth histogram    		vthin
