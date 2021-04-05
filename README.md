@@ -6,4 +6,4 @@ I made a couple of edits including larger fonts.
 
 Install with: 
 
-net install scheme-modern, from("https://raw.githubusercontent.com/anguslewis/stata_clean_scheme/master/")
+net install scheme-clean, from("https://raw.githubusercontent.com/anguslewis/stata_clean_scheme/master/")
