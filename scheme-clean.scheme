@@ -177,13 +177,22 @@ color refmarker      		gs11
 color refmarkline    		black
 
 * Default colors for all other non-specified objects, first one should be 31 88 137
-color p1					"31 88 137"
-color p2					"155 52 58"
-color p3					"94 130 50"
-color p4					dkorange
-color p5					teal
-color p6					cranberry
-color p7					lavender
+* Colors are chosen for color blind accessibility, see https://www.nature.com/articles/nmeth.1618
+"230 159 0"
+"86 180 233"
+"0 158 115"
+"240 228 66"
+"0 114 178"
+"213 94 0"
+"204 121 167"
+
+color p1					"230 159 0"
+color p2					"86 180 233"
+color p3					"0 158 115"
+color p4					"240 228 66"
+color p5					"0 114 178"
+color p6					"213 94 0"
+color p7					"204 121 167"
 color p8					khaki
 color p9					sienna
 color p10					emidblue
