@@ -1,8 +1,5 @@
 * ===============================================================================
-* FILE: scheme-modern
-* PURPOSE: Pretty graphing scheme for Stata
-* VERSION: 1.0
-* MORE INFO: https://github.com/mdroste/stata-scheme-modern
+* FILE: scheme-clean
 * ===============================================================================
 
 #include s2color
@@ -31,7 +28,15 @@ yesno legend_row_first       yes
 * Graph size and margin options
 * -------------------------------------------------------------------------------
 
+graphsize              12.5
+graphsize  x           8
+graphsize  y           4.5
+
 margin axis_title small
+
+margin twoway            zero
+margin plotregion        zero
+margin graphregion       zero
 
 graphsize x 6
 
@@ -39,7 +44,7 @@ gsize                 		medsmall
 gsize gap             		tiny
 gsize text            		medsmall
 gsize body            		medsmall
-gsize title					      medlarge
+gsize title					medlarge
 gsize small_body      		small
 gsize heading         		medium
 gsize subheading      		medsmall
@@ -175,24 +180,38 @@ color matrix         		gs6
 color matrixmarkline 		gs6
 color refmarker      		gs11
 color refmarkline    		black
+color title                 black
 
-* Default colors for all other non-specified objects, first one should be 31 88 137
 * Colors are chosen for color blind accessibility, see https://www.nature.com/articles/nmeth.1618
-color p1					"230 159 0"
-color p2					"86 180 233"
-color p3					"0 158 115"
-color p4					"240 228 66"
-color p5					"0 114 178"
-color p6					"213 94 0"
-color p7					"204 121 167"
-color p8					khaki
-color p9					sienna
-color p10					emidblue
-color p11					emerald
-color p12					brown
-color p13					erose
-color p14					gold
-color p15					bluishgray
+color p1					"57 167 229"
+color p2					"0 142 103"
+color p3					"207 143 0"
+color p4					"195 97 151"
+color p5					"0 102 160"
+color p6					"237 223 37"
+color p7					"191 84 0"
+color p8					"57 167 229"
+color p9					"0 142 103"
+color p10					"207 143 0"
+color p11					"195 97 151"
+color p12					"0 102 160"
+color p13					"237 223 37"
+color p14					"191 84 0"
+
+linepattern p1			solid
+linepattern p2			solid
+linepattern p3			solid
+linepattern p4			solid
+linepattern p5			solid
+linepattern p6			solid
+linepattern p7			solid
+linepattern p8			dash
+linepattern p9			dash
+linepattern p10			dash
+linepattern p11			dash
+linepattern p12			dash
+linepattern p13			dash
+linepattern p14			dash
 
 * Fade out bar charts and histograms into lighter palette
 intensity bar 				80
