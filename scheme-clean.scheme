@@ -102,7 +102,7 @@ linewidth xyline       		medthin
 linewidth histogram    		vthin
 linewidth bar          		vthin
 
-linewidth p                 medium
+linewidth p                 medthick
 linewidth axisline          medthin
 linewidth tick              thin
 linewidth minortick         thin
