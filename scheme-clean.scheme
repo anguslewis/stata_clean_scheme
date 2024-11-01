@@ -102,7 +102,7 @@ linewidth xyline       		medthin
 linewidth histogram    		vthin
 linewidth bar          		vthin
 
-linewidth p                 medthick
+linewidth p                 thick
 linewidth axisline          medthin
 linewidth tick              thin
 linewidth minortick         thin
@@ -128,21 +128,21 @@ linewidth ci2               thin
 linewidth ci_area           thin
 linewidth ci2_area          thin
 linewidth pbar              thin
-linewidth p1bar             thin
-linewidth p2bar             thin
-linewidth p3bar             thin
-linewidth p4bar             thin
-linewidth p5bar             thin
-linewidth p6bar             thin
-linewidth p7bar             thin
-linewidth p8bar             thin
-linewidth p9bar             thin
-linewidth p10bar            thin
-linewidth p11bar            thin
-linewidth p12bar            thin
-linewidth p13bar            thin
-linewidth p14bar            thin
-linewidth p15bar            thin
+linewidth p1bar             none
+linewidth p2bar             none
+linewidth p3bar             none
+linewidth p4bar             none
+linewidth p5bar             none
+linewidth p6bar             none
+linewidth p7bar             none
+linewidth p8bar             none
+linewidth p9bar             none
+linewidth p10bar            none
+linewidth p11bar            none
+linewidth p12bar            none
+linewidth p13bar            none
+linewidth p14bar            none
+linewidth p15bar            none
 
 linewidth small 			small
 linewidth histogram    		thin
