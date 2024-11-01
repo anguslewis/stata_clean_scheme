@@ -183,11 +183,11 @@ color refmarkline    		black
 color title                 black
 
 * Colors are chosen for color blind accessibility, see https://www.nature.com/articles/nmeth.1618
-color p1					"57 167 229"
+color p1					"0 102 160"
 color p2					"0 142 103"
 color p3					"207 143 0"
 color p4					"195 97 151"
-color p5					"0 102 160"
+color p5					"57 167 229"
 color p6					"191 84 0" 
 color p7					"237 223 37"
 color p8					"57 167 229"
